@@ -7,8 +7,6 @@
 # 5 6 -> 2 3
 summa = int(input('Введи сумму загаданных чисел: '))
 work = int(input('Введи произведение загаданных чисел: '))
-number1 = 0
-number2 = 0
 for i in range(1, int(summa/2)+1):
     if (summa - i) * i == work:
         print(f'Первое загаданное число: {i}')
