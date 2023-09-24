@@ -8,3 +8,6 @@ filtered_data = data[(data['population'] >= 0) & (data['population'] <= 500)]
 average_house_value = filtered_data['median_house_value'].mean()
 
 print("Средняя стоимость дома для количества людей от 0 до 500:", average_house_value)
+
+
+
